@@ -1,0 +1,87 @@
+#input_field{
+    text-align: center;
+    margin-bottom : 50px;
+    margin-top : 75px;
+}
+
+body {
+    background-color: #f27d1a;
+}
+.item__delete--btn {
+    font-size: 22px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    display: inline-block;
+    vertical-align: middle;
+    line-height: 1;
+    
+  }
+
+  .item__done--btn {
+    font-size: 22px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    display: inline-block;
+    vertical-align: middle;
+    line-height: 1;
+    
+  }
+
+  /* .del_btn {
+      display: inline-block;
+        } */
+
+
+    .item_container {
+        
+        margin-top: 5px;
+        background-color: Gainsboro;
+        margin-left: 150px;
+        margin-right: 150px;
+        border: 1px solid blue;
+        border-radius: 15px;
+      }
+
+    .item_container  div {
+        display: inline-block;
+        vertical-align: middle;
+        /* max-width: 50px; */
+    }
+
+    #cross {
+        height : 18px;
+    }
+    
+    #tick {
+        height : 18px;
+        
+    }
+
+    .item_description {
+        margin-left: 25px;
+    }
+   
+    #del_btn {
+        margin-right: 0px;
+    }
+
+    .item_description {
+        border: 1px solid white;
+        width: 850px;
+        height: 35px;
+        font-size: 17px;
+        padding-top: 5px;
+        padding-left: 5px;
+        overflow: auto;
+
+    }
+
+    #item {
+        border-radius: 25px;
+        padding-left: 10px;
+        width: 500px;
+        height: 30px;
+    }
+        
